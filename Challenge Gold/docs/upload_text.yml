@@ -1,0 +1,16 @@
+tags:
+  - name: Abusive Words Censoring - Text
+post:
+  description: Upload a sample text and process it
+parameters:
+  - name: text
+    in: formData
+    required: True
+    type: string
+responses:
+  "200":
+    description: Successful response
+  "400":
+    description: Bad Request
+  "500":
+    description: Internal Server Error
